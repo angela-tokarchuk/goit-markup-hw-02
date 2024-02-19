@@ -1,0 +1,250 @@
+/* Палитра */
+
+/* Первичный цвет текста  - SLATE: #434455; */
+/* Вторичный цвет заголовков -  NAVY BLUE: #2E2F42; */
+/* Белый цвет - WHITE: #FFFFFF; */
+/* Акцент - OCEAN: #404BBF;
+/* Цвет кнопки -#4D5AE5; */
+/* Второй цвет текста - CLOUD: #F4F4FD; */
+
+/* Переменные */
+
+:root {
+  --primary-text-color: #434455;
+  --first-title-color: #2e2f42;
+  --second-logo-color: #2e2f42;
+  --white-color: #ffffff;
+  --accent-color: #404bbf;
+  --hero-button-color: #4d5ae5;
+  --first-logo-color: #4d5ae5;
+  --second-text-color: #f4f4fd;
+}
+
+body {
+  background-color: var(--white-color);
+  color: var(--primary-text-color);
+  font-family: Roboto, sans-serif;
+  letter-spacing: 0.02em;
+}
+
+.list {
+  list-style: none;
+}
+
+.link {
+  text-decoration: none;
+}
+
+/* Стили для index.html */
+
+/* Секция Header  */
+
+/* Логотип */
+
+.header-logo {
+  color: var(--first-logo-color);
+  font-family: "Raleway", sans-serif;
+  font-weight: 800;
+  font-size: 18px;
+  line-height: 1.17;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+}
+.header-nav .second-logo {
+  color: var(--second-logo-color);
+  font-family: "Raleway", sans-serif;
+  font-weight: 800;
+  font-size: 18px;
+  line-height: 1.17;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+}
+
+/* Навигация */
+
+.header-link .link {
+  color: var(--first-title-color);
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+}
+
+.header-link :hover {
+  color: var(--accent-color);
+}
+.header-link :focus {
+  color: var(--accent-color);
+}
+
+.header-address {
+  font-style: normal;
+}
+
+.address-nav .navigation {
+  color: var(--primary-text-color);
+  font-size: 16px;
+  line-height: 1.5;
+}
+
+.address-nav :hover {
+  color: var(--accent-color);
+}
+
+.address-nav :focus {
+  color: var(--accent-color);
+}
+
+/* Секция "Герой" */
+
+.hero-section {
+  background-color: var(--second-logo-color);
+}
+
+.hero-section .title {
+  color: var(--white-color);
+  font-weight: 700;
+  font-size: 56px;
+  line-height: 1.07;
+  text-align: center;
+  letter-spacing: 0.02em;
+}
+
+.hero-button {
+  color: var(--white-color);
+  background-color: var(--hero-button-color);
+  font-family: "Roboto", sans-serif;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.04em;
+  cursor: pointer;
+}
+
+.hero-button:hover {
+  background-color: var(--accent-color);
+}
+.hero-button:focus {
+  background-color: var(--accent-color);
+}
+
+/* Секция 2 */
+
+.mission-section {
+  background-color: var(--white-color);
+}
+
+.mission-list .title {
+  color: var(--first-title-color);
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 1.2;
+  text-align: center;
+  letter-spacing: 0.02em;
+  text-transform: capitalize;
+}
+
+.mission-list .text {
+  color: var(--primary-text-color);
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+}
+
+/* Cекция 3 */
+
+/* Секция 4 */
+
+.team-section {
+  background-color: var(--second-text-color);
+}
+
+.team-pfoto {
+  background-color: var(--white-color);
+}
+
+.team-section .title {
+  color: var(--first-title-color);
+  font-size: 36px;
+  line-height: 1.11;
+  text-align: center;
+  letter-spacing: 0.02em;
+  text-transform: capitalize;
+}
+
+.team-list .title {
+  color: var(--first-title-color);
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 1.2;
+  text-align: center;
+  letter-spacing: 0.02em;
+  text-transform: capitalize;
+}
+
+.team-list .text {
+  color: var(--primary-text-color);
+  font-size: 16px;
+  line-height: 1.5;
+
+  text-align: center;
+  letter-spacing: 0.02em;
+}
+
+/* Footer */
+
+.footer-section {
+  background-color: var(--first-title-color);
+}
+
+.footer-section .text {
+  color: var(--second-text-color);
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+}
+
+.second-logo {
+  color: var(--second-text-color);
+}
+
+/* Стили для portfoloi.html */
+
+/* Кнопки */
+
+.portfolio-section {
+  background-color: var(--white-color);
+}
+
+.button {
+  color: var(--hero-button-color);
+  background-color: var(--second-text-color);
+  font-family: "Roboto", sans-serif;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  border-radius: 4px;
+  letter-spacing: 0.04em;
+  cursor: pointer;
+}
+
+.button:is(:hover, :focus) {
+  color: var(--white-color);
+  background-color: var(--accent-color);
+}
+
+/* Портфолио */
+
+.portfolio-list .title {
+  color: var(--first-title-color);
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 1.2;
+  letter-spacing: 0.02em;
+}
+
+.portfolio-list .text {
+  color: var(--primary-text-color);
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+}
