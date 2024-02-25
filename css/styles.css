@@ -35,8 +35,6 @@ body {
   text-decoration: none;
 }
 
-/* Стили для index.html */
-
 /* Секция Header  */
 
 /* Логотип */
@@ -188,7 +186,25 @@ body {
   letter-spacing: 0.02em;
 }
 
-/*Cекция 4*/
+/* Секция 4 */
+.portfolio-section {
+  background-color: var(--white-color);
+}
+
+.portfolio-list .title {
+  color: var(--first-title-color);
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 1.2;
+  letter-spacing: 0.02em;
+}
+
+.portfolio-list .text {
+  color: var(--primary-text-color);
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+}
 
 /* Footer */
 
@@ -209,10 +225,6 @@ body {
 
 /* Кнопки */
 
-.portfolio-section {
-  background-color: var(--white-color);
-}
-
 .button {
   color: var(--hero-button-color);
   background-color: var(--second-text-color);
@@ -228,21 +240,4 @@ body {
 .button:is(:hover, :focus) {
   color: var(--white-color);
   background-color: var(--accent-color);
-}
-
-/* Портфолио */
-
-.portfolio-list .title {
-  color: var(--first-title-color);
-  font-weight: 500;
-  font-size: 20px;
-  line-height: 1.2;
-  letter-spacing: 0.02em;
-}
-
-.portfolio-list .text {
-  color: var(--primary-text-color);
-  font-size: 16px;
-  line-height: 1.5;
-  letter-spacing: 0.02em;
 }
